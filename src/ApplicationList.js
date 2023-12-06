@@ -34,6 +34,7 @@ function randomString(length) {
 
 const scoreMap = {
   unified: ['danger', 'success'],
+  nightly: ['danger', 'success'],
   sonarqube: ['danger', 'success'],
   vulnerabilities: [...Array(10).keys()].map((i) => (
     (i < 1)
@@ -145,7 +146,8 @@ const ApplicationList = () => {
       .then((response) => response.json())
       .then((data) => {
         setApplications(data.map((a) => {
-          const sonarqube = randomInt(0, 1);
+          const nightly = randomInt(0, 1);
+          const sonarqube = (!!nightly) ? randomInt(0, 1) : 0;
           return {
             ...a,
             category: ['api', 'web', 'ios', 'android'][randomInt(0, 3)],
@@ -156,6 +158,7 @@ const ApplicationList = () => {
             contributors: [...Array(randomInt(3, 9)).keys()].map((i) => (randomString(randomInt(6, 9)))),
             score: {
               unified: 1,
+              nightly,
               sonarqube,
               ...(!!sonarqube) && {
                 vulnerabilities: randomInt(0, 9),
@@ -199,7 +202,7 @@ const ApplicationList = () => {
                               Object.keys(application.score).map((key) => (
                                 <Badge key={key} bg={scoreMap[key][application.score[key]]} style={{ marginRight: '0.4em' }}>
                                   {key}: {
-                                    (['unified', 'sonarqube'].includes(key))
+                                    (['unified', 'nightly', 'sonarqube'].includes(key))
                                       ? (
                                           (!!application.score[key]) ? '✔': '✘')
                                       : (
