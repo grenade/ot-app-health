@@ -1,0 +1,970 @@
+[
+  {
+    "group": null,
+    "name": "ADI Team",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Apigee",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Application Operations",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "CICM",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Channels",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Channels / WebPortal",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Commons",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Components",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "data",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Datalab",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "EshopV2",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "MicroServices",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "platform-engineering",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "Services / ModernTechApis",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": "CICM",
+    "name": "tuatara_cpy_tmp",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "CICM-POC",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "cicm-poc1",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "CMA Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "cosapp",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "CRM Batch Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "CRM Plus Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Daleel Group",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "DMA",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "ESB-Migration-Project",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "FINS",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "GiftBox",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "GitLab Instance",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "legacy",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Microsoft Applications",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "MNP Group",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "My Learning Group",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "myTestProject",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "NEP",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Omantel IPTV",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "OrderManagement-Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "POS Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Product-Configurator-Realm",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "Referral Program",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "RPA_Projects",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "RPA_Projects_Production",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "rtcs",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "testGroup",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "umas",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  },
+  {
+    "group": null,
+    "name": "UOMS",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ]
+  }
+]
