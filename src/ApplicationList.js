@@ -168,7 +168,30 @@ const ApplicationList = () => {
               }
             },
           };
-        }));
+        }).map((a) => ({
+          ...a,
+          maturity: (
+            (a.score.unified * 0.25)
+            + (a.score.nightly * 0.25)
+            + (a.score.sonarqube * 0.25)
+            + (
+                (!!a.score.sonarqube)
+                  ? (
+                      ((100 / (a.score.vulnerabilities + 1)) / 100 * 0.25)
+                      + ((100 / (a.score.issues + 1)) / 100 * 0.25)
+                      + ((100 / (a.score.duplications + 1)) / 100 * 0.25)
+                      + (a.score.coverage / 100 * 0.25)
+                    )
+                  : 0
+              ) * 0.25
+          ),
+        })).sort((a, b) => (
+          (a.maturity > b.maturity)
+            ? 1
+            : (a.maturity < b.maturity)
+              ? -1
+              : 0
+        )).reverse());
         console.log(data);
       })
       .catch((error) => console.log(error));
@@ -185,6 +208,10 @@ const ApplicationList = () => {
                     <Accordion.Item key={aI} eventKey={aI}>
                       <Accordion.Header>
                         <Col>
+                          <Badge style={{ marginRight: '0.4em' }}>
+                            {(application.maturity * 100).toFixed(1)} %
+                          </Badge>
+                          &nbsp;
                           {
                             (!!application.group && application.group !== application.name)
                               ? (
@@ -234,7 +261,12 @@ const ApplicationList = () => {
                                     )
                                   : (
                                       <span>
-                                        {application[key]}<br />
+                                        {
+                                          (key === 'maturity')
+                                            ? (application[key].toFixed(3))
+                                            : application[key]
+                                        }
+                                        <br />
                                       </span>
                                     )
                               }
