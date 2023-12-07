@@ -20,9 +20,7 @@ const randomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 };
 
-
-
-function randomString(length) {
+const randomString = (length) => {
   const characters ='abcdefghijklmnopqrstuvwxyz0123456789';
   let result = '';
   const charactersLength = characters.length;
@@ -30,7 +28,7 @@ function randomString(length) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
   return result;
-}
+};
 
 const scoreMap = {
   unified: ['danger', 'success'],
@@ -146,6 +144,7 @@ const ApplicationList = () => {
       .then((response) => response.json())
       .then((data) => {
         setApplications(data.map((a) => {
+          // assign random mock scores until scoring api is ready
           const nightly = randomInt(0, 1);
           const sonarqube = (!!nightly) ? randomInt(0, 1) : 0;
           return {
@@ -169,11 +168,12 @@ const ApplicationList = () => {
             },
           };
         }).map((a) => ({
+          // calculate overall maturity score based on all other scores
           ...a,
           maturity: (
-            (a.score.unified * 0.25)
-            + (a.score.nightly * 0.25)
-            + (a.score.sonarqube * 0.25)
+            (a.score.unified * 0.25) // 0.25 for being in gitlab
+            + (a.score.nightly * 0.25) // 0.25 for having a nightly build
+            + (a.score.sonarqube * 0.25) // 0.25 for having sonarqube scores
             + (
                 (!!a.score.sonarqube)
                   ? (
@@ -186,15 +186,10 @@ const ApplicationList = () => {
               ) * 0.25
           ),
         })).sort((a, b) => (
-          (a.maturity > b.maturity)
-            ? 1
-            : (a.maturity < b.maturity)
-              ? -1
-              : 0
+          (a.maturity > b.maturity) ? 1 : (a.maturity < b.maturity) ? -1 : 0
         )).reverse());
-        console.log(data);
       })
-      .catch((error) => console.log(error));
+      .catch(console.error);
   }, []);
   return (
     <div>
@@ -207,6 +202,9 @@ const ApplicationList = () => {
                   applications.map((application, aI) => (
                     <Accordion.Item key={aI} eventKey={aI}>
                       <Accordion.Header>
+                        <Col xs={1}>
+                          {(aI + 1)}
+                        </Col>
                         <Col>
                           <Badge style={{ marginRight: '0.4em' }}>
                             {(application.maturity * 100).toFixed(1)} %
