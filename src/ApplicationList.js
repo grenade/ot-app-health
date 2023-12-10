@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import Alert from 'react-bootstrap/Alert';
 import Badge from 'react-bootstrap/Badge';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
@@ -41,6 +42,15 @@ const ApplicationList = () => {
                   //[...new Set(applications.map((a) => a.scope))].map((scope, sI) => (
                   ['scheduled', 'deferred', 'excluded', 'deprecated'].map((scope, sI) => (
                     <Tab key={sI} eventKey={scope} title={scope}>
+                      {
+                        (scope === 'deferred')
+                          ? (
+                              <Alert variant="warning">
+                                <strong>scores below are generated at random for demonstration purposes.</strong> genuine scores will be included when application is scheduled for ci/cd workflow implementation.
+                              </Alert>
+                            )
+                          : null
+                      }
                       <Accordion>
                         {
                           applications.filter((a) => a.scope === scope).map((application, aI) => (

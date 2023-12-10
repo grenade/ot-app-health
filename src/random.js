@@ -27,7 +27,7 @@ const randomString = (length) => {
   return result;
 };
 
-const scope = (name) => {
+const semiRandomScope = (name) => {
   return ['legacy'].includes(name.toLowerCase())
     ? 'deprecated'
     : ['testgroup', 'mytestproject', 'my learning group', 'gitlab instance', 'application operations'].includes(name.toLowerCase())
@@ -36,8 +36,17 @@ const scope = (name) => {
 };
 
 export const randomApp = (app) => {
-  const nightly = randomInt(0, 1);
-  const sonarqube = (!!nightly) ? randomInt(0, 1) : 0;
+  const scope = (!!app.scope)
+    ? app.scope
+    : semiRandomScope(app.name);
+  const nightly = ((!!app.score) && ('nightly' in app.score))
+    ? app.score.nightly
+    : (scope === 'deferred')
+      ? randomInt(0, 1)
+      : 0;
+  const sonarqube = (('score' in app) && ('sonarqube' in app.score))
+    ? app.score.sonarqube
+    : (!!nightly) ? randomInt(0, 1) : 0;
   return {
     ...app,
     category: ['api', 'web', 'ios', 'android'][randomInt(0, 3)],
@@ -57,6 +66,6 @@ export const randomApp = (app) => {
         duplications: randomInt(0, 9)
       }
     },
-    scope: (app.scope || scope(app.name)),
+    scope,
   };
 };

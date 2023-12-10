@@ -988,6 +988,10 @@
     ],
     "clickup": [
     ],
-    "scope": "scheduled"
+    "scope": "scheduled",
+    "score": {
+      "nightly": 0,
+      "sonarqube": 0
+    }
   }
 ]
