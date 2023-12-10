@@ -49,11 +49,12 @@ const ApplicationList = () => {
                                 <Col xs={1}>
                                   {(aI + 1)}
                                 </Col>
-                                <Col>
+                                <Col xs={1}>
                                   <Badge style={{ marginRight: '0.4em' }}>
                                     {(application.maturity * 100).toFixed(1)} %
                                   </Badge>
-                                  &nbsp;
+                                </Col>
+                                <Col>
                                   {
                                     (!!application.group && application.group !== application.name)
                                       ? (
@@ -65,7 +66,7 @@ const ApplicationList = () => {
                                   }
                                   {application.name.toLowerCase()}
                                 </Col>
-                                <Col xs={8}>
+                                <Col xs={7}>
                                   <Stack direction="horizontal" gap={2} style={{ width: '100%', display: 'block' }} className="justify-content-end">
                                     {
                                       Object.keys(application.score).map((key) => (
