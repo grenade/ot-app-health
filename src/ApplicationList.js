@@ -39,7 +39,7 @@ const ApplicationList = () => {
               <Tabs defaultActiveKey="scheduled" className="mb-3">
                 {
                   //[...new Set(applications.map((a) => a.scope))].map((scope, sI) => (
-                  ['scheduled', 'deferred', 'deprecated', 'omitted'].map((scope, sI) => (
+                  ['scheduled', 'deferred', 'excluded', 'deprecated'].map((scope, sI) => (
                     <Tab key={sI} eventKey={scope} title={scope}>
                       <Accordion defaultActiveKey={0}>
                         {

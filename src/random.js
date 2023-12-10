@@ -31,7 +31,7 @@ const scope = (name) => {
   return ['legacy'].includes(name.toLowerCase())
     ? 'deprecated'
     : ['testgroup', 'mytestproject', 'my learning group', 'gitlab instance', 'application operations'].includes(name.toLowerCase())
-      ? 'omitted'
+      ? 'excluded'
       : 'deferred';
 };
 
