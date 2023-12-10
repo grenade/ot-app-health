@@ -41,7 +41,7 @@ const ApplicationList = () => {
                   //[...new Set(applications.map((a) => a.scope))].map((scope, sI) => (
                   ['scheduled', 'deferred', 'excluded', 'deprecated'].map((scope, sI) => (
                     <Tab key={sI} eventKey={scope} title={scope}>
-                      <Accordion defaultActiveKey={0}>
+                      <Accordion>
                         {
                           applications.filter((a) => a.scope === scope).map((application, aI) => (
                             <Accordion.Item key={aI} eventKey={aI}>
