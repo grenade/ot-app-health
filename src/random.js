@@ -27,6 +27,14 @@ const randomString = (length) => {
   return result;
 };
 
+const scope = (name) => {
+  return ['legacy'].includes(name.toLowerCase())
+    ? 'deprecated'
+    : ['testgroup', 'mytestproject', 'my learning group', 'gitlab instance', 'application operations'].includes(name.toLowerCase())
+      ? 'omitted'
+      : 'deferred';
+};
+
 export const randomApp = (app) => {
   const nightly = randomInt(0, 1);
   const sonarqube = (!!nightly) ? randomInt(0, 1) : 0;
@@ -49,5 +57,6 @@ export const randomApp = (app) => {
         duplications: randomInt(0, 9)
       }
     },
+    scope: (app.scope || scope(app.name)),
   };
 };

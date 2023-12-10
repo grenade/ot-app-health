@@ -966,5 +966,28 @@
     ],
     "clickup": [
     ]
+  },
+  {
+    "group": "OrderManagement-Realm",
+    "name": "omsubs-query-api",
+    "category": null,
+    "description": null,
+    "languages": [
+    ],
+    "dependencies": [
+    ],
+    "repositories": [
+    ],
+    "packages": [
+    ],
+    "environments": [
+    ],
+    "contributors": [
+    ],
+    "itbr": [
+    ],
+    "clickup": [
+    ],
+    "scope": "scheduled"
   }
 ]
